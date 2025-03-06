@@ -43,9 +43,9 @@
                 <div class="inner-container">
                     <div class="left-column">
                         <ul class="contact-info">
-                            <li><a href="mailto:needhelp@company.com"><i class="flaticon-email-1"></i>info@ekometaliglobal.com</a></li>
-                            <li><a href="tel:+385927292812"><i class="flaticon-telephone"></i>+385 95 729 2812</a></li>
-                            <li><i class="flaticon-pin"></i>Zagreb, Hrvatska</li>
+                            <li><a href="mailto:info@ekometaliglobal.com"><i class="flaticon-email-1"></i>info@ekometaliglobal.com</a></li>
+                            <li><a href="tel:+385976399250"><i class="flaticon-telephone"></i>+385 97 639 9250</a></li>
+                            <li><i class="flaticon-pin"></i>Savska 141, Zagreb</li>
                         </ul>
                     </div>
                     <div class="right-column">
@@ -64,7 +64,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                        <div class="logo"><a href="index.html"><img class="large-logo" src="assets/images/logo.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -101,7 +101,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.html"><img class="large-logo" src="assets/images/logo.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -167,36 +167,35 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-map mb-30">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88941.4851621968!2d15.881963806879375!3d45.84286472495889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d692c902cc39%3A0x3a45249628fbc28a!2sZagreb!5e0!3m2!1shr!2shr!4v1741004064966!5m2!1shr!2shr" width="600" height="750" frameborder="0" style="border:0; border-radius: 50%; max-width: 750px; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.993616562173!2d15.955766371537495!3d45.79148349952496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d691bc89b17d%3A0x2dae27647c6333e8!2sSavska%20cesta%20141%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1741260536006!5m2!1shr!2shr"  width="600" height="750" frameborder="0" style="border:0; border-radius: 50%; max-width: 750px; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-details mb-30">
                         <div class="sec-title mb-40">
                             <div class="sub-title">Kontaktirajte nas</div>
-                            <h2>stupite u kontakt <br> s nama</h2>
+                            <h2>Javite<br>nam se</h2>
                         </div>
-                        <div class="text mb-40">Lorem Ipsum is simply dummy text of the printing and typesetting have you done google research. </div> 
+                        <div class="text mb-40">kontaktirajte nas za više detalja. Provjerite naše usluge i rješenja, kvaliteta i pouzdanost su na prvom mjestu. </div> 
                         <div class="contact-info">
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-mail"></span></div>
                                 <div class="content">
                                     <h5>Nazovite nas</h5>
-                                    <div class="text"><a href="tel:926668880000">92 666 888 0000</a></div>
+                                    <div class="text"><a href="tel:+385976399250">+97 639 9250</a></div>
                                 </div>
                             </div>
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-mail"></span></div>
                                 <div class="content">
                                     <h5>Pošalji mail</h5>
-                                    <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
+                                    <div class="text"><a href="mailto:info@ekometaliglobal.com">info@ekometaliglobal.com</a></div>
                                 </div>
                             </div>                                
                             <div class="icon-box">
                                 <div class="icon"><span class="flaticon-calling"></span></div>
                                 <div class="content">
                                     <h5>Dođite kod nas</h5>
-                                    <div class="text">Zagreb, Hrvatska</div>
+                                    <div class="text">Savska 141, Zagreb</div>
                                 </div>
                             </div>
                         </div>                       
@@ -215,7 +214,7 @@
             </div>
             <!--Contact Form-->
             <div class="contact-form">
-                <form method="post" action="inc/sendemail.php" id="contact-form">
+                <form id="contact-form">
                     <div class="row row-20">
                         <div class="form-group col-md-6">
                             <input type="text" name="form_name" value="" placeholder="Puno Ime" required>
@@ -233,8 +232,7 @@
                             <textarea name="form_message" placeholder="Napiši poruku..."></textarea>
                         </div>                        
                         <div class="form-group text-center col-md-12">
-                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                            <button class="theme-btn btn-style-one" type="submit" data-loading-text="Pričekajte..."><span>Send Message</span></button>
+                            <button class="theme-btn btn-style-one"><span>Send Message</span></button>
                         </div>
                     </div>
                 </form>
@@ -244,71 +242,48 @@
     </section>
 
     
-    <!--Main Footer-->
+    
     <footer class="main-footer" style="background-image: url(assets/images/background/bg-5.jpg);">
         <div class="upper-box">
             <div class="auto-container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="widget about-widget">
                             <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
-                            <div class="text">Lorem ipsum dolor sit amet, consect etur adi pisicing elit sed do eiusmod tempor incididunt ut labore et.</div>
+                            <div class="text">Ekometaliglobal je vodeća tvrtka specijalizirana za zavarivanje, metalske radove i preciznu obradu metala.</div>
                             <div class="link-box">
-                                <a href="#" class="theme-btn btn-style-one"><span>Contact Us</span></a>
+                                <a href="contact.html.html" class="theme-btn btn-style-one"><span>Javite se</span></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="widget links-widget">
                             <h4 class="widget_title">Links</h4>
                             <div class="widget-content">
                                 <ul class="list">
-                                    <li><a href="#"> About </a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Latest Projects</a></li>
-                                    <li><a href="#">News & Articles</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="about.html">O nama</a></li>
+                                    <li><a href="services.html">Usluge</a></li>
+                                    <li><a href="projects.html">Projekti</a></li>
+                                    <li><a href="contact.html">Kontakt</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="widget news-widget">
-                            <h4 class="widget_title">Latest News</h4>
-                            <div class="news-widget-wrapper">
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-4.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-5.jpg" alt=""></a></div>
-                                    <div class="content">
-                                        <div class="date">15 Aug, 2020</div>
-                                        <h4><a href="blog-details.html"> We’re creating a Metal <br>Product</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-6">
                         <div class="widget contact-widget">
                             <h4 class="widget_title">Contact</h4>
                             <div class="wrapper-box">
                                 <div class="icon-box">
                                     <div class="icon"><span class="flaticon-pin"></span></div>
-                                    <div class="text">88 broklyn golden street, New
-                                        York. USA</div>
+                                    <div class="text">Savska 141, Zagreb</div>
                                 </div>
                                 <div class="icon-box">
                                     <div class="icon"><span class="flaticon-email-1"></span></div>
-                                    <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
+                                    <div class="text"><a href="mailto:info@ekometaliglobal.com">info@ekometaliglobal.com</a></div>
                                 </div>                                
                                 <div class="icon-box">
                                     <div class="icon"><span class="flaticon-telephone"></span></div>
-                                    <div class="text"><a href="tel:926668880000">92 666 888 0000</a></div>
+                                    <div class="text"><a href="tel:+385976399250">+385 97 639 9250</a></div>
                                 </div>
                             </div>
                         </div>
@@ -324,11 +299,9 @@
             <div class="content">
                 <ul class="social-icon">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
-                <div class="copyright-text">© Copyright 2022 by Company.com</div>
+                <div class="copyright-text">© Copyright 2025 by New Age Agencija</div>
             </div>            
         </div>
     </div>
@@ -337,7 +310,7 @@
 <!--End pagewrapper-->
 
 <!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-right-arrow-4"></span></div>
+<div class="scroll-to-top scroll-to-target hide-large" data-target="html"><span class="flaticon-right-arrow-4"></span></div>
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>
@@ -364,13 +337,20 @@
 
 
 
-
-
-
-
-
-
-
-
-
+<style>
+    @media only screen and (max-width: 362px) {
+       img.large-logo {
+   width: 150px;
+}}
+   @media only screen and (max-width: 650px) {
+       .header-top{
+           display:none !important;
+       }
+}
+@media only screen and (max-width: 550px) {
+        .hide-large{
+            display:none !important;
+        }
+}
+</style>
 
